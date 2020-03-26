@@ -1,8 +1,9 @@
 
 /*
 
-    tparse.h 1.1
+    tparse.h 1.0
 
+     + Trying to use Git
      + Added tryLongParse
      + Added tryLLongParse
      + Added tryLongParseU
@@ -10,7 +11,7 @@
      - Fixed empty strings being accepted into functions resulting in program termination due to std::invalid_argument
      - Fixed strings with negative numbers being allowed to go a step ahead into ex::tryIntParseU function
      - Implemented thing that could possibly prevent ex::tryIntParseU from overflowing given unsigned int var
-     - Removed #include <string> due to being useless
+     - Removed #include <string> due to it being useless
     
      To be added:
 
